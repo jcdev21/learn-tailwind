@@ -81,8 +81,97 @@
 
     <hr class="my-24 border-t-2">
 
-    <div class="container mx-auto p-8 shadow shadow-slate-300 rounded-lg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam praesentium temporibus quod impedit provident nobis esse, culpa unde, rem maiores deserunt libero fuga at laboriosam, debitis earum aliquam minus.</p>
+    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl flex lg:max-w-full lg:p-0">
+        <div class="lg:p-12 lg:flex-1">
+            <h3 class="text-4xl font-bold text-slate-800 sm:text-5xl md:text-6xl">Responsive Design</h3>
+            <img src="./img/laptop-image.jpeg" alt="Laptop" class="mt-4 rounded-xl shadow-xl sm:mt-6 sm:h-64 sm:w-full sm:object-center lg:hidden">
+            <h2 class="mt-6 text-2xl font-semibold text-slate-800 sm:mt-8 sm:text-4xl">Belajar Responsive Design in Tailwind</h2>
+            <p class="mt-2 text-slate-600 sm:mt-4 sm:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam praesentium temporibus quod impedit provident nobis esse, culpa unde, rem maiores deserunt libero fuga at laboriosam, debitis earum aliquam minus.</p>
+            <div class="mt-4 sm:mt-6">
+                <a href="#" class="inline-block px-5 py-3 bg-red-600 text-white rounded-lg shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base">Subscribe</a>
+            </div>
+        </div>
+        <div class="hidden lg:flex lg:w-1/2">
+            <img src="./img/laptop-image.jpeg" alt="Laptop" class="object-cover rounded-l-full">
+        </div>
+    </div>
+
+    <hr class="my-24 border-t-2">
+
+    <h2 class="text-center mb-10 font-bold text-3xl text-slate-700">My Gallery</h2>
+    <div class="container mx-auto px-6 sm:flex sm:justify-evenly sm:flex-wrap sm:gap-6">
+        <div class="rounded-md shadow-lg bg-white overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://source.unsplash.com/600x400" alt="Image">
+            <div class="px-6 py-4">
+                <h3 class="font-bold text-xl mb-2 text-slate-700">Image Title</h3>
+                <p class="text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quibusdam!</p>
+            </div>
+        </div>
+        <div class="rounded-md shadow-lg bg-white overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://source.unsplash.com/600x400" alt="Image">
+            <div class="px-6 py-4">
+                <h3 class="font-bold text-xl mb-2 text-slate-700">Image Title</h3>
+                <p class="text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quibusdam!</p>
+            </div>
+        </div>
+        <div class="rounded-md shadow-lg bg-white overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://source.unsplash.com/600x400" alt="Image">
+            <div class="px-6 py-4">
+                <h3 class="font-bold text-xl mb-2 text-slate-700">Image Title</h3>
+                <p class="text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quibusdam!</p>
+            </div>
+        </div>
+        <div class="rounded-md shadow-lg bg-white overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://source.unsplash.com/600x400" alt="Image">
+            <div class="px-6 py-4">
+                <h3 class="font-bold text-xl mb-2 text-slate-700">Image Title</h3>
+                <p class="text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quibusdam!</p>
+            </div>
+        </div>
+        <div class="rounded-md shadow-lg bg-white overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://source.unsplash.com/600x400" alt="Image">
+            <div class="px-6 py-4">
+                <h3 class="font-bold text-xl mb-2 text-slate-700">Image Title</h3>
+                <p class="text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quibusdam!</p>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-24 border-t-2">
+
+    <div class="p-2 font-inter grid grid-cols-2 gap-2 md:p-4 md:grid-cols-4">
+        <h2 class="text-xl font-semibold text-slate-700 md:col-start-4 md:row-start-2">Welcome to Tailwind</h2>
+        <div class="text-lg font-bold text-slate-600 md:col-start-2 md:row-start-2">@jcdev21</div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('./img/grid/1.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500 md:col-start-3">
+            <div class="w-full h-full bg-[url('./img/grid/2.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('./img/grid/3.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('./img/grid/4.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('./img/grid/5.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500 md:col-start-2">
+            <div class="w-full h-full bg-[url('./img/grid/6.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500 md:col-start-4">
+            <div class="w-full h-full bg-[url('./img/grid/7.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('./img/grid/8.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500 md:col-start-3">
+            <div class="w-full h-full bg-[url('./img/grid/9.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
+        <div class="aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/3] rounded-lg overflow-hidden group hover:scale-95 transition-all duration-500 md:col-start-3">
+            <div class="w-full h-full bg-[url('./img/grid/10.jpeg')] bg-cover bg-center group-hover:scale-125 transition-all duration-500"></div>
+        </div>
     </div>
 
     <div class="mb-96"></div>
